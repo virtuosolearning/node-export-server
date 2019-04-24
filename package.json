@@ -10,7 +10,6 @@
     "highcharts-export-server": "./bin/cli.js"
   },
   "scripts": {
-    "preinstall": "export ACCEPT_HIGHCHARTS_LICENSE=1 HIGHCHARTS_USE_STYLED=1",
     "install": "node ./build.js"
   },
   "main": "lib/index.js",
